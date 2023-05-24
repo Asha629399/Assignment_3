@@ -15,14 +15,14 @@ In this assignment, I transliterated hindi words written in English script to Hi
 6. wandb:  used for experiment tracking and visualization.
 7.random
 <br/>
-# Installations: #
+# Installations: 
 1. pip package manager which i used to install libraries 
 <br/>
-# Dataset Used #
+# Dataset Used :
 I downloaded hindi validation,test,train data and uploaded them to google drive and mounted the drive in my code and accessed by giving thier paths 
 
 <br/>
-# How to USE? #
+# How to USE:
 The entire project has been modularised using functions to make it as scalable as possible for future developments and extensions.
 
 The main class for the model is `class Transliteration_EncoderDecoder(nn.Module):` is the function to train the model. The parameters for the constructor of this class are the following:
